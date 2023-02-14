@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CarListApp.Services
 {
-    internal class CarServices
+    public class CarServices
     {
         public List<Car> GetCars()
         {
