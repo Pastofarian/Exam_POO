@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-14T10:59:44.174</Modified>
+      <Modified>2023-02-14T14:05:29.156</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-14T10:59:43.526</Modified>
+      <Modified>2023-02-14T14:05:28.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CarListApp.runtimeconfig.json">
       <PackagePath>CarListApp.runtimeconfig.json</PackagePath>
-      <Modified>2023-02-14T10:59:43.108</Modified>
+      <Modified>2023-02-14T13:51:25.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CarListApp.dll">
       <PackagePath>CarListApp.dll</PackagePath>
-      <Modified>2023-02-14T10:59:39.739</Modified>
+      <Modified>2023-02-14T14:05:26.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CarListApp.exe</PackagePath>
-      <Modified>2023-02-14T10:59:39.782</Modified>
+      <Modified>2023-02-14T14:05:26.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.13\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -965,6 +965,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\communitytoolkit.mvvm\8.1.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-01-17T22:56:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-02-24T00:12:18.000</Modified>
@@ -1063,7 +1067,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CarListApp.deps.json">
       <PackagePath>CarListApp.deps.json</PackagePath>
-      <Modified>2023-02-14T10:59:43.902</Modified>
+      <Modified>2023-02-14T14:05:28.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.maui.controls.ref.win\6.0.548\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
