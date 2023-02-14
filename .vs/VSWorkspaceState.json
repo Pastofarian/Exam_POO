@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CarListApp",
+    "\\CarListApp\\CarListApp"
   ],
+  "SelectedNode": "\\CarListApp\\CarListApp",
   "PreviewInSolutionExplorer": false
 }
