@@ -1,5 +1,7 @@
 ﻿using CarListApp.Models;
 using CarListApp.Services;
+using CarListApp.Views;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.Generic;
@@ -9,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+
 
 namespace CarListApp.ViewModels
 {
@@ -25,6 +28,9 @@ namespace CarListApp.ViewModels
             this.carService = carService;
         }
 
+        [ObservableProperty]
+        bool isRefreshing;
+
         [RelayCommand] //using System.Windows.Input;
         async Task GetCarList()
         {
@@ -35,10 +41,8 @@ namespace CarListApp.ViewModels
                 if (Cars.Any()) Cars.Clear();
 
                 var cars = carService.GetCars();
-                foreach (var car in cars)
-                {
-                    Cars.Add(car);
-                }
+
+                foreach (var car in cars) Cars.Add(car);
             }
             catch (Exception ex)
             {
@@ -48,7 +52,18 @@ namespace CarListApp.ViewModels
             finally
             {
                 IsLoading = false;
+                IsRefreshing = false;
             }
+        }
+        [RelayCommand]
+        async Task GetCarDetails(Car car)
+        {
+            if (car == null) return;
+
+            await Shell.Current.GoToAsync(nameof(CarDetailsPage), true, new Dictionary<string, object>
+            {
+                {nameof(Car), car }
+            });
         }
     }
 }

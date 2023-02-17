@@ -1,5 +1,6 @@
 ﻿using CarListApp.Services;
 using CarListApp.ViewModels;
+using CarListApp.Views;
 
 namespace CarListApp;
 
@@ -17,8 +18,12 @@ public static class MauiProgram
             });
 
         builder.Services.AddSingleton<CarServices>();
+
         builder.Services.AddSingleton<CarListViewModel>();
+        builder.Services.AddTransient<CarDetailsViewModel>();
+
         builder.Services.AddSingleton<MainPage>();
+        builder.Services.AddTransient<CarDetailsPage>();
 
         return builder.Build();
     }
