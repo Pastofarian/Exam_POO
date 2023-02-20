@@ -17,15 +17,13 @@ namespace CarListApp.ViewModels
 {
     public partial class CarListViewModel : BaseViewModel
     {
-        private readonly CarServices carService;
         public ObservableCollection<Car> Cars
         {
             get; private set;
         } = new();
-        public CarListViewModel(CarServices carService)
+        public CarListViewModel()
         {
             Title = "Car List";
-            this.carService = carService;
         }
 
         [ObservableProperty]
@@ -40,7 +38,7 @@ namespace CarListApp.ViewModels
                 IsLoading = true;
                 if (Cars.Any()) Cars.Clear();
 
-                var cars = carService.GetCars();
+                var cars = App.CarServices.GetCars();
 
                 foreach (var car in cars) Cars.Add(car);
             }
