@@ -43708,12 +43708,12 @@
 
 	.type	.L.java_type_name.8741, @object
 .L.java_type_name.8741:
-	.asciz	"crc64bad1bb93db0dc09a/MainActivity"
+	.asciz	"crc64bdc51c9cf7ae31e4/MainActivity"
 	.size	.L.java_type_name.8741, 35
 
 	.type	.L.java_type_name.8742, @object
 .L.java_type_name.8742:
-	.asciz	"crc64bad1bb93db0dc09a/MainApplication"
+	.asciz	"crc64bdc51c9cf7ae31e4/MainApplication"
 	.size	.L.java_type_name.8742, 38
 
 	.type	.L.java_type_name.8743, @object
@@ -100697,13 +100697,13 @@
 
 	.type	.L.managed_type_name.7626, @object
 .L.managed_type_name.7626:
-	.asciz	"CarListApp.MainActivity, CarListApp"
-	.size	.L.managed_type_name.7626, 36
+	.asciz	"CarListApp.Maui.MainActivity, CarListApp"
+	.size	.L.managed_type_name.7626, 41
 
 	.type	.L.managed_type_name.7627, @object
 .L.managed_type_name.7627:
-	.asciz	"CarListApp.MainApplication, CarListApp"
-	.size	.L.managed_type_name.7627, 39
+	.asciz	"CarListApp.Maui.MainApplication, CarListApp"
+	.size	.L.managed_type_name.7627, 44
 
 	.type	.L.managed_type_name.7628, @object
 .L.managed_type_name.7628:
