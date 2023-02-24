@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace CarListApp.WinUI
+namespace CarListApp.Maui.WinUI
 {
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {

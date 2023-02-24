@@ -5,24 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarListApp.Models
+namespace CarListApp.Maui.Models
 {
     [Table("cars")]
     public class Car : BaseEntity
     {
-        public string Make
-        {
-            get; set;
-        }
-        public string Model
-        {
-            get; set;
-        }
+        public string Make { get; set; }
+        public string Model { get; set; }
+
         [MaxLength(12)]
         [Unique]
-        public string Vin //vehicule identification number
-        {
-            get; set;
-        }
+        public string Vin { get; set; }
     }
 }

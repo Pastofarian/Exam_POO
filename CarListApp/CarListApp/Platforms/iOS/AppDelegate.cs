@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace CarListApp;
+namespace CarListApp.Maui;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

@@ -1,6 +1,6 @@
-﻿using CarListApp.Views;
+﻿using CarListApp.Maui.Views;
 
-namespace CarListApp;
+namespace CarListApp.Maui;
 
 public partial class AppShell : Shell
 {
