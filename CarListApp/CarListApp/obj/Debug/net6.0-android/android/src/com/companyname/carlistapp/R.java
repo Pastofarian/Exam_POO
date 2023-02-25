@@ -45166,10 +45166,11 @@ public final class R {
   public static final class xml {
     public static final int image_share_filepaths=0x7f120000;
     public static final int microsoft_maui_essentials_fileprovider_file_paths=0x7f120001;
-    public static final int standalone_badge=0x7f120002;
-    public static final int standalone_badge_gravity_bottom_end=0x7f120003;
-    public static final int standalone_badge_gravity_bottom_start=0x7f120004;
-    public static final int standalone_badge_gravity_top_start=0x7f120005;
-    public static final int standalone_badge_offset=0x7f120006;
+    public static final int network_security_config=0x7f120002;
+    public static final int standalone_badge=0x7f120003;
+    public static final int standalone_badge_gravity_bottom_end=0x7f120004;
+    public static final int standalone_badge_gravity_bottom_start=0x7f120005;
+    public static final int standalone_badge_gravity_top_start=0x7f120006;
+    public static final int standalone_badge_offset=0x7f120007;
   }
 }

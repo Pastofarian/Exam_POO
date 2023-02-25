@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "l9zSELi2DmBSj1uA3YRa6WSP4VBTVc/sq9wZVDMfCLYYdi0Rd1v8BHqo2AkFqlMkhSJtIJMr4eF594cnlw+UwA==",
+  "dgSpecHash": "ojJ6ngDu2tk1bDAq7YmJ5wt/5WFXGZaEgwAovHuYxCu6gBGkH338QrP4AhBinO29bSn5/5wULL0G69SabpKwMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pastofarian\\source\\repos\\Exam_POO\\CarListApp\\CarListApp.Api\\CarListApp.Api.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

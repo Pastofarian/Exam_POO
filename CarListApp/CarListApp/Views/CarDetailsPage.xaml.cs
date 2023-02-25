@@ -1,20 +1,22 @@
+//using AndroidX.Lifecycle;
 using CarListApp.Maui.ViewModels;
 
 namespace CarListApp.Maui.Views;
 
 public partial class CarDetailsPage : ContentPage
 {
-	public CarDetailsPage(CarDetailsViewModel carDetailsViewModel)
-	{
-		InitializeComponent();
-		BindingContext = carDetailsViewModel;
-	}
+    private readonly CarDetailsViewModel carDetailsViewModel;
 
-    protected override void OnNavigatedTo(NavigatedToEventArgs args)
+    public CarDetailsPage(CarDetailsViewModel carDetailsViewModel)
     {
-		// Do fanciness 
-		
-        base.OnNavigatedTo(args);
-		
+        InitializeComponent();
+        BindingContext = carDetailsViewModel;
+        this.carDetailsViewModel = carDetailsViewModel;
+    }
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await carDetailsViewModel.GetCarData();
     }
 }

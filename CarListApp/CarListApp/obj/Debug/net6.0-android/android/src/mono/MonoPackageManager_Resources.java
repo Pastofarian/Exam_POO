@@ -19,6 +19,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Options.dll",
 		"Microsoft.Extensions.Primitives.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"Newtonsoft.Json.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.nativelibrary.dll",

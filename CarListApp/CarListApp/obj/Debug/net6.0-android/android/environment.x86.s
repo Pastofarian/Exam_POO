@@ -1212,6 +1212,22 @@ app_system_properties:
 .L.env.buf.293:
 	.zero	70
 	.size	.L.env.buf.293, 70
+	.type	.L.env.buf.294, @object
+.L.env.buf.294:
+	.zero	70
+	.size	.L.env.buf.294, 70
+	.type	.L.env.buf.295, @object
+.L.env.buf.295:
+	.zero	70
+	.size	.L.env.buf.295, 70
+	.type	.L.env.buf.296, @object
+.L.env.buf.296:
+	.zero	70
+	.size	.L.env.buf.296, 70
+	.type	.L.env.buf.297, @object
+.L.env.buf.297:
+	.zero	70
+	.size	.L.env.buf.297, 70
 	# Bundled assemblies data
 
 	.type	bundled_assemblies, @object
@@ -3278,7 +3294,35 @@ bundled_assemblies:
 	.long	0x0	# name_length
 	.long	.L.env.buf.293	# name
 
-	.size	bundled_assemblies, 7056
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.long	0x0	# data
+	.long	0x0	# name_length
+	.long	.L.env.buf.294	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.long	0x0	# data
+	.long	0x0	# name_length
+	.long	.L.env.buf.295	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.long	0x0	# data
+	.long	0x0	# name_length
+	.long	.L.env.buf.296	# name
+
+	.long	0xffffffff	# apk_fd
+	.long	0x0	# data_offset
+	.long	0x0	# data_size
+	.long	0x0	# data
+	.long	0x0	# name_length
+	.long	.L.env.buf.297	# name
+
+	.size	bundled_assemblies, 7152
 	# Assembly store individual assembly data
 	.type	assembly_store_bundled_assemblies, @object
 	.global	assembly_store_bundled_assemblies
@@ -3515,7 +3559,7 @@ dso_cache:
 	.size	dso_cache, 720
 
 	#
-	# Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.99.76, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
+	# Generated from instance of: Xamarin.Android.Tasks.ApplicationConfig, Xamarin.Android.Build.Tasks, Version=12.3.99.85, Culture=neutral, PublicKeyToken=84e04ff9cfb79065
 	#
 	.type	application_config, @object
 	.global	application_config
@@ -3538,7 +3582,7 @@ application_config:
 	.long	0x3	# package_naming_policy
 	.long	0xc	# environment_variable_count
 	.long	0x0	# system_property_count
-	.long	0x126	# number_of_assemblies_in_apk
+	.long	0x12a	# number_of_assemblies_in_apk
 	.long	0x46	# bundled_assembly_name_width
 	.long	0x2	# number_of_assembly_store_files
 	.long	0x24	# number_of_dso_cache_entries
@@ -3590,7 +3634,7 @@ application_config:
 
 	.type	.L.autostr.8, @object
 .L.autostr.8:
-	.asciz	"d59b88d4-1a9e-4b57-b78c-90a0f83e7019"
+	.asciz	"9b4cf2a2-0307-447a-8d2a-eb4e26c208ec"
 	.size	.L.autostr.8, 37
 
 	.type	.L.autostr.9, @object
@@ -3799,4 +3843,4 @@ application_config:
 	.size	.L.autostr.49, 27
 
 
-	.ident	"Xamarin.Android remotes/origin/release/6.0.4xx @ af4a25d50f5a602c77d05c2ec8c8644c00cffbbd"
+	.ident	"Xamarin.Android remotes/origin/release/6.0.4xx @ 619ab7a92a09825ecb274bf87d8086d2dbe63aea"
