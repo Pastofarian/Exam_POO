@@ -1,8 +1,12 @@
 using CarListApp.Api;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Serilog;
+using static LoginDto;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,9 +20,36 @@ builder.Services.AddCors(o =>
 var conn = new SqliteConnection($"Data Source=C:\\carlistdb\\carlist.db");
 builder.Services.AddDbContext<CarListDbContext>(o => o.UseSqlite(conn));
 
-builder.Host.UseSerilog((ctx, lc) =>
-    lc.WriteTo.Console()
-    .ReadFrom.Configuration(ctx.Configuration));
+builder.Services.AddIdentityCore<IdentityUser>()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<CarListDbContext>();
+
+//builder.Services.AddAuthentication(options => {
+//    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+//    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+//}).AddJwtBearer(options => {
+//    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+//    {
+//        ValidateIssuer = true,
+//        ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+//        ValidateAudience = true,
+//        ValidAudience = builder.Configuration["JwtSettings:Audience"],
+//        ValidateLifetime = true,
+//        ClockSkew = TimeSpan.Zero,
+//        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]))
+//    };
+//});
+
+//builder.Services.AddAuthorization(options => {
+//    options.FallbackPolicy = new AuthorizationPolicyBuilder()
+//    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+//    .RequireAuthenticatedUser()
+//    .Build();
+//});
+
+//builder.Host.UseSerilog((ctx, lc) =>
+//    lc.WriteTo.Console()
+//    .ReadFrom.Configuration(ctx.Configuration));
 
 var app = builder.Build();
 
@@ -71,4 +102,58 @@ app.MapPost("/cars", async (Car car, CarListDbContext db) =>
 
 });
 
+app.MapPost("/login", async (LoginDto loginDto, UserManager<IdentityUser> _userManager) =>
+{
+    var user = await _userManager.FindByNameAsync(loginDto.Username);
+
+    if (user is null)
+    {
+        return Results.Unauthorized();
+    }
+
+    var isValidPassword = await _userManager.CheckPasswordAsync(user, loginDto.Password);
+
+    if (!isValidPassword)
+    {
+        return Results.Unauthorized();
+    }
+
+    var response = new AuthResponseDto
+    {
+        UserId = user.Id,
+        Username = user.UserName,
+        Token = "accessToken"
+    };
+
+    return Results.Ok(response);
+});
+
 app.Run();
+
+internal class LoginDto
+{
+    public string Username
+    {
+        get; set;
+    }
+    public string Password
+    {
+        get; set;
+    }
+
+    internal class AuthResponseDto
+    {
+        public string UserId
+        {
+            get; set;
+        }
+        public string Username
+        {
+            get; set;
+        }
+        public string Token
+        {
+            get; set;
+        }
+    }
+}

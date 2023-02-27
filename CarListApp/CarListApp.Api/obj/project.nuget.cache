@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ojJ6ngDu2tk1bDAq7YmJ5wt/5WFXGZaEgwAovHuYxCu6gBGkH338QrP4AhBinO29bSn5/5wULL0G69SabpKwMg==",
+  "dgSpecHash": "wxhWT7Jtz4PTFJQy8uVp/yUA88Rfm7zkLGP/BUmblCle4kSZd4UgfVWUkSz3dBaVKi9Hl8EzpJMc+qO1b6EhGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pastofarian\\source\\repos\\Exam_POO\\CarListApp\\CarListApp.Api\\CarListApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pastofarian\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.14\\microsoft.aspnetcore.cryptography.internal.6.0.14.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.14\\microsoft.aspnetcore.cryptography.keyderivation.6.0.14.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.14\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.14.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.3\\microsoft.data.sqlite.core.7.0.3.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
@@ -21,6 +24,8 @@
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.14\\microsoft.extensions.identity.core.6.0.14.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.14\\microsoft.extensions.identity.stores.6.0.14.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
