@@ -1,4 +1,5 @@
-﻿
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace CarListApp.Maui.ViewModels
 {
@@ -15,6 +16,20 @@ namespace CarListApp.Maui.ViewModels
             if (string.IsNullOrEmpty(token))
             {
                 await GoToLoginPage();
+            }
+            else
+            {
+                var jsonToken = new JwtSecurityTokenHandler().ReadToken(token) as JwtSecurityToken;
+
+                if (jsonToken.ValidTo < DateTime.UtcNow)
+                {
+                    SecureStorage.Remove("Token");
+                    await GoToLoginPage();
+                }
+                else
+                {
+                    await GoToMainPage();
+                }
             }
         }
 

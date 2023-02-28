@@ -83,6 +83,10 @@
               "target": "Package",
               "version": "[2.1.4, )"
             },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
             "System.ObjectModel": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -205,6 +209,10 @@
               "target": "Package",
               "version": "[2.1.4, )"
             },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
             "System.ObjectModel": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -307,6 +315,10 @@
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             },
             "System.ObjectModel": {
               "target": "Package",
@@ -417,6 +429,10 @@
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
               "version": "[2.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
             },
             "System.ObjectModel": {
               "target": "Package",

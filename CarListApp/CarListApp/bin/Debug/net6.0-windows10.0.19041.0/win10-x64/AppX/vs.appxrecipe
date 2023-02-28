@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-28T11:32:31.674</Modified>
+      <Modified>2023-02-28T14:33:00.325</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-28T11:32:30.936</Modified>
+      <Modified>2023-02-28T14:22:12.804</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CarListApp.runtimeconfig.json">
       <PackagePath>CarListApp.runtimeconfig.json</PackagePath>
-      <Modified>2023-02-25T20:19:59.752</Modified>
+      <Modified>2023-02-28T14:22:11.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CarListApp.dll">
       <PackagePath>CarListApp.dll</PackagePath>
-      <Modified>2023-02-28T11:32:27.694</Modified>
+      <Modified>2023-02-28T14:32:57.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CarListApp.exe</PackagePath>
-      <Modified>2023-02-28T11:32:27.708</Modified>
+      <Modified>2023-02-28T14:32:58.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1005,6 +1005,22 @@
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
       <Modified>2022-04-28T15:53:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.identitymodel.abstractions\6.27.0\lib\net6.0\Microsoft.IdentityModel.Abstractions.dll">
+      <PackagePath>Microsoft.IdentityModel.Abstractions.dll</PackagePath>
+      <Modified>2023-02-16T00:41:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.identitymodel.jsonwebtokens\6.27.0\lib\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll">
+      <PackagePath>Microsoft.IdentityModel.JsonWebTokens.dll</PackagePath>
+      <Modified>2023-02-16T00:18:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.identitymodel.logging\6.27.0\lib\net6.0\Microsoft.IdentityModel.Logging.dll">
+      <PackagePath>Microsoft.IdentityModel.Logging.dll</PackagePath>
+      <Modified>2023-02-16T00:20:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.identitymodel.tokens\6.27.0\lib\net6.0\Microsoft.IdentityModel.Tokens.dll">
+      <PackagePath>Microsoft.IdentityModel.Tokens.dll</PackagePath>
+      <Modified>2023-02-16T00:26:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.maui.graphics\6.0.501\lib\net6.0-windows10.0.18362\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
       <Modified>2022-09-08T21:05:58.000</Modified>
@@ -1081,6 +1097,10 @@
       <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
       <Modified>2023-01-10T20:18:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\system.identitymodel.tokens.jwt\6.27.0\lib\net6.0\System.IdentityModel.Tokens.Jwt.dll">
+      <PackagePath>System.IdentityModel.Tokens.Jwt.dll</PackagePath>
+      <Modified>2023-02-16T00:16:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-04-28T15:57:10.000</Modified>
@@ -1095,7 +1115,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CarListApp.deps.json">
       <PackagePath>CarListApp.deps.json</PackagePath>
-      <Modified>2023-02-28T11:32:31.414</Modified>
+      <Modified>2023-02-28T14:33:00.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Pastofarian\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

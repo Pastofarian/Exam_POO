@@ -366,3 +366,8 @@ C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.1423.7309.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.IdentityModel.Tokens.Jwt.dll

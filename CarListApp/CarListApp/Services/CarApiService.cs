@@ -1,4 +1,5 @@
 ﻿using CarListApp.Maui.Models;
+using CarListApp.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -92,6 +93,27 @@ namespace CarListApp.Maui.Services
             {
                 StatusMessage = "Echec de la mise à jour des données.";
             }
+        }
+        public async Task<AuthResponseModel> Login(LoginModel loginModel)
+        {
+            try
+            {
+                var response = await _httpClient.PostAsJsonAsync("/login", loginModel);
+                response.EnsureSuccessStatusCode();
+                StatusMessage = "Login Successful";
+
+                return JsonConvert.DeserializeObject<AuthResponseModel>(await response.Content.ReadAsStringAsync());
+            }
+            catch (Exception ex)
+            {
+                StatusMessage = "Failed to login successfully.";
+                return new AuthResponseModel();
+            }
+        }
+        public async Task SetAuthToken()
+        {
+            var token = await SecureStorage.GetAsync("Token");
+            _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
         }
     }
 }

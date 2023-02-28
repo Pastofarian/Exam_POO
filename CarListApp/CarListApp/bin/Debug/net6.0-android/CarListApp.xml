@@ -76,5 +76,17 @@
         <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.ClearFormCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.CarListViewModel.ClearForm"/>.</summary>
         </member>
+        <member name="P:CarListApp.Maui.ViewModels.LoginViewModel.Username">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.LoginViewModel.username"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.LoginViewModel.Password">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.LoginViewModel.password"/>
+        </member>
+        <member name="F:CarListApp.Maui.ViewModels.LoginViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:CarListApp.Maui.ViewModels.LoginViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.LoginViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.LoginViewModel.Login"/>.</summary>
+        </member>
     </members>
 </doc>
