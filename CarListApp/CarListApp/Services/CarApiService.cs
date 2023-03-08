@@ -28,7 +28,7 @@ namespace CarListApp.Maui.Services
                 var response = await _httpClient.GetStringAsync("/cars");
                 return JsonConvert.DeserializeObject<List<Car>>(response);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 StatusMessage = "Echec de la récupération des données.";
             }
@@ -43,7 +43,7 @@ namespace CarListApp.Maui.Services
                 var response = await _httpClient.GetStringAsync("/cars/" + id);
                 return JsonConvert.DeserializeObject<Car>(response);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 StatusMessage = "Echec de la récupération des données.";
             }
@@ -59,7 +59,7 @@ namespace CarListApp.Maui.Services
                 response.EnsureSuccessStatusCode();
                 StatusMessage = "Insertion réussie";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 StatusMessage = "Echec de l'ajout de données.";
             }
@@ -74,7 +74,7 @@ namespace CarListApp.Maui.Services
                 response.EnsureSuccessStatusCode();
                 StatusMessage = "Suppression réussie";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 StatusMessage = "Echec de la suppression des données.";
             }
@@ -88,7 +88,7 @@ namespace CarListApp.Maui.Services
                 response.EnsureSuccessStatusCode();
                 StatusMessage = "Mise à jour réussie";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 StatusMessage = "Echec de la mise à jour des données.";
             }

@@ -26,7 +26,7 @@ namespace CarListApp.Maui.ViewModels
 
         public CarListViewModel(CarApiService carApiService)
         {
-            Title = "Car List";
+            Title = "Liste de voiture (Examen POO)";
             AddEditButtonText = createButtonText;
             this.carApiService = carApiService;
         }

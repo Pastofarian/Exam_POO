@@ -19,16 +19,16 @@
         </Grid.ColumnDefinitions>
 
         <VerticalStackLayout Padding="5" Grid.Row="0" Margin="9">
-            <Entry x:Name="Make" Placeholder="Enter Make" Text="{Binding Make}" />
-            <Entry x:Name="Model" Placeholder="Enter Model" Text="{Binding Model}"/>
-            <Entry x:Name="Vin" Placeholder="Enter Vin" Text="{Binding Vin}"/>
+            <Entry x:Name="Make" Placeholder="Entrez la marque" Text="{Binding Make}" />
+            <Entry x:Name="Model" Placeholder="Entrez le model" Text="{Binding Model}"/>
+            <Entry x:Name="Vin" Placeholder="Entrez la plaque d'imatruculation" Text="{Binding Vin}"/>
         </VerticalStackLayout>
 
 
         <Button Text="{Binding AddEditButtonText}" Grid.Row="1" IsEnabled="{Binding IsNotLoading}"
                 Command="{Binding SaveCarCommand}" Margin="9" />
 
-        <Button Text="Clear Form" Command="{Binding ClearFormCommand}" IsEnabled="{Binding IsNotLoading}" 
+        <Button Text="Effacer le formulaire" Command="{Binding ClearFormCommand}" IsEnabled="{Binding IsNotLoading}" 
                 Grid.Row="2" Margin="9"/>
 
         <RefreshView Grid.Row="4"

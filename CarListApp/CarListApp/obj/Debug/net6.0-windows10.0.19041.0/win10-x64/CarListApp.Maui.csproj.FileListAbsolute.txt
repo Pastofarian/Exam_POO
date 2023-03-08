@@ -1,0 +1,12 @@
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CarListApp.Maui.csproj.AssemblyReference.cache
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauifont.inputs
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauisplash.inputs
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\mauimanifest.stamp
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.g.cs
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CarListApp.Maui.GeneratedMSBuildEditorConfig.editorconfig
