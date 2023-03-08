@@ -16,9 +16,9 @@ builder.Services.AddCors(o =>
 var conn = new SqliteConnection($"Data Source=C:\\carlistdb\\carlist.db");
 builder.Services.AddDbContext<CarListDbContext>(o => o.UseSqlite(conn));
 
-builder.Host.UseSerilog((ctx, lc) =>
-    lc.WriteTo.Console()
-    .ReadFrom.Configuration(ctx.Configuration));
+//builder.Host.UseSerilog((ctx, lc) =>
+//    lc.WriteTo.Console()
+//    .ReadFrom.Configuration(ctx.Configuration));
 
 var app = builder.Build();
 

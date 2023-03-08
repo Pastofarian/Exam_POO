@@ -1,0 +1,5 @@
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Test\obj\Debug\net6.0\CarListApp.Test.csproj.AssemblyReference.cache
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Test\obj\Debug\net6.0\CarListApp.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Test\obj\Debug\net6.0\CarListApp.Test.AssemblyInfoInputs.cache
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Test\obj\Debug\net6.0\CarListApp.Test.AssemblyInfo.cs
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Test\obj\Debug\net6.0\CarListApp.Test.csproj.CoreCompileInputs.cache

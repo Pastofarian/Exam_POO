@@ -78,3 +78,4 @@ C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Api\obj\Debug\n
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Api\obj\Debug\net6.0\CarListApp.Api.pdb
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Api\obj\Debug\net6.0\CarListApp.Api.genruntimeconfig.cache
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Api\obj\Debug\net6.0\ref\CarListApp.Api.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp.Api\bin\Debug\net6.0\Serilog.dll

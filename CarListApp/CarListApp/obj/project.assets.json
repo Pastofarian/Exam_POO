@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-android31.0": {
+    "net6.0-android33.0": {
       "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
@@ -2082,7 +2082,7 @@
         }
       }
     },
-    "net6.0-android31.0/android-arm": {
+    "net6.0-android33.0/android-arm": {
       "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
@@ -4163,7 +4163,7 @@
         }
       }
     },
-    "net6.0-android31.0/android-arm64": {
+    "net6.0-android33.0/android-arm64": {
       "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
@@ -6244,7 +6244,7 @@
         }
       }
     },
-    "net6.0-android31.0/android-x64": {
+    "net6.0-android33.0/android-x64": {
       "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
@@ -8325,7 +8325,7 @@
         }
       }
     },
-    "net6.0-android31.0/android-x86": {
+    "net6.0-android33.0/android-x86": {
       "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
@@ -10406,7 +10406,7 @@
         }
       }
     },
-    "net6.0-android31.0/iossimulator-x64": {
+    "net6.0-android33.0/iossimulator-x64": {
       "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
@@ -12487,7 +12487,7 @@
         }
       }
     },
-    "net6.0-android31.0/maccatalyst-x64": {
+    "net6.0-android33.0/maccatalyst-x64": {
       "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
@@ -14568,7 +14568,7 @@
         }
       }
     },
-    "net6.0-android31.0/win10-x64": {
+    "net6.0-android33.0/win10-x64": {
       "CommunityToolkit.Mvvm/8.1.0": {
         "type": "package",
         "compile": {
@@ -37210,7 +37210,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0-android31.0": [
+    "net6.0-android33.0": [
       "CommunityToolkit.Mvvm >= 8.1.0",
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
@@ -37273,7 +37273,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-android",
+        "net6.0-android33.0",
         "net6.0-ios",
         "net6.0-maccatalyst",
         "net6.0-windows10.0.19041.0"
@@ -37284,8 +37284,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-android31.0": {
-          "targetAlias": "net6.0-android",
+        "net6.0-android33.0": {
+          "targetAlias": "net6.0-android33.0",
           "projectReferences": {}
         },
         "net6.0-ios16.1": {
@@ -37308,8 +37308,8 @@
       }
     },
     "frameworks": {
-      "net6.0-android31.0": {
-        "targetAlias": "net6.0-android",
+      "net6.0-android33.0": {
+        "targetAlias": "net6.0-android33.0",
         "dependencies": {
           "CommunityToolkit.Mvvm": {
             "target": "Package",
@@ -37355,23 +37355,23 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.Android.Ref.31",
+            "name": "Microsoft.Android.Ref.33",
             "version": "[32.0.485, 32.0.485]"
           },
           {
-            "name": "Microsoft.Android.Runtime.31.android-arm",
+            "name": "Microsoft.Android.Runtime.33.android-arm",
             "version": "[32.0.485, 32.0.485]"
           },
           {
-            "name": "Microsoft.Android.Runtime.31.android-arm64",
+            "name": "Microsoft.Android.Runtime.33.android-arm64",
             "version": "[32.0.485, 32.0.485]"
           },
           {
-            "name": "Microsoft.Android.Runtime.31.android-x64",
+            "name": "Microsoft.Android.Runtime.33.android-x64",
             "version": "[32.0.485, 32.0.485]"
           },
           {
-            "name": "Microsoft.Android.Runtime.31.android-x86",
+            "name": "Microsoft.Android.Runtime.33.android-x86",
             "version": "[32.0.485, 32.0.485]"
           },
           {
@@ -37428,7 +37428,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       },
       "net6.0-ios16.1": {
         "targetAlias": "net6.0-ios",
@@ -37531,7 +37531,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       },
       "net6.0-maccatalyst16.1": {
         "targetAlias": "net6.0-maccatalyst",
@@ -37635,7 +37635,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       },
       "net6.0-windows10.0.19041": {
         "targetAlias": "net6.0-windows10.0.19041.0",
@@ -37747,7 +37747,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

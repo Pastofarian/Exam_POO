@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarListApp</name>
+    </assembly>
+    <members>
+        <member name="P:CarListApp.Maui.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.BaseViewModel.title"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.BaseViewModel.IsLoading">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.BaseViewModel.isLoading"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarDetailsViewModel.Car">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.CarDetailsViewModel.car"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarDetailsViewModel.Id">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.CarDetailsViewModel.id"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.IsRefreshing">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.CarListViewModel.isRefreshing"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.Make">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.CarListViewModel.make"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.Model">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.CarListViewModel.model"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.Vin">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.CarListViewModel.vin"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.AddEditButtonText">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.CarListViewModel.addEditButtonText"/>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.CarId">
+            <inheritdoc cref="F:CarListApp.Maui.ViewModels.CarListViewModel.carId"/>
+        </member>
+        <member name="F:CarListApp.Maui.ViewModels.CarListViewModel.getCarListCommand">
+            <summary>The backing field for <see cref="P:CarListApp.Maui.ViewModels.CarListViewModel.GetCarListCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.GetCarListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.CarListViewModel.GetCarList"/>.</summary>
+        </member>
+        <member name="F:CarListApp.Maui.ViewModels.CarListViewModel.getCarDetailsCommand">
+            <summary>The backing field for <see cref="P:CarListApp.Maui.ViewModels.CarListViewModel.GetCarDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.GetCarDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.CarListViewModel.GetCarDetails(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:CarListApp.Maui.ViewModels.CarListViewModel.saveCarCommand">
+            <summary>The backing field for <see cref="P:CarListApp.Maui.ViewModels.CarListViewModel.SaveCarCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.SaveCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.CarListViewModel.SaveCar"/>.</summary>
+        </member>
+        <member name="F:CarListApp.Maui.ViewModels.CarListViewModel.deleteCarCommand">
+            <summary>The backing field for <see cref="P:CarListApp.Maui.ViewModels.CarListViewModel.DeleteCarCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.DeleteCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.CarListViewModel.DeleteCar(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:CarListApp.Maui.ViewModels.CarListViewModel.updateCarCommand">
+            <summary>The backing field for <see cref="P:CarListApp.Maui.ViewModels.CarListViewModel.UpdateCarCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.UpdateCarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.CarListViewModel.UpdateCar(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:CarListApp.Maui.ViewModels.CarListViewModel.setEditModeCommand">
+            <summary>The backing field for <see cref="P:CarListApp.Maui.ViewModels.CarListViewModel.SetEditModeCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.SetEditModeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.CarListViewModel.SetEditMode(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:CarListApp.Maui.ViewModels.CarListViewModel.clearFormCommand">
+            <summary>The backing field for <see cref="P:CarListApp.Maui.ViewModels.CarListViewModel.ClearFormCommand"/>.</summary>
+        </member>
+        <member name="P:CarListApp.Maui.ViewModels.CarListViewModel.ClearFormCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CarListApp.Maui.ViewModels.CarListViewModel.ClearForm"/>.</summary>
+        </member>
+    </members>
+</doc>
