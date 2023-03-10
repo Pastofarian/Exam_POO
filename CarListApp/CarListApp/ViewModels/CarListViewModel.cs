@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace CarListApp.Maui.ViewModels
 {
-    public partial class CarListViewModel : BaseViewModel
+    public partial class CarListViewModel : BaseViewModel //partial à cause du code généré automatiquement
     {
         const string editButtonText = "Mise à jour de la voiture";
         const string createButtonText = "Ajout d'une voiture";
@@ -26,14 +26,14 @@ namespace CarListApp.Maui.ViewModels
 
         public CarListViewModel(CarApiService carApiService)
         {
-            Title = "Liste de voiture (Examen POO)";
+            Title = "Liste de voiture (Examen POO)"; //Binding (F12)
             AddEditButtonText = createButtonText;
             this.carApiService = carApiService;
         }
 
-        [ObservableProperty]
+        [ObservableProperty] //est utilisé pour que la vue puisse mettre à jour ces propriétés automatiquement
         bool isRefreshing;
-        [ObservableProperty]
+        [ObservableProperty] //déclenche automatiquement une notification lorsqu'elle est mise à jour
         string make;
         [ObservableProperty]
         string model;
@@ -44,8 +44,8 @@ namespace CarListApp.Maui.ViewModels
         [ObservableProperty]
         int carId;
 
-        [RelayCommand]
-        async Task GetCarList()
+        [RelayCommand] //on contrôle sans bloquer le user  !!Avant appelé "[ICommand]"
+        async Task GetCarList() //"Dependency injection"
         {
             if (IsLoading) return;
             try
@@ -53,11 +53,11 @@ namespace CarListApp.Maui.ViewModels
                 IsLoading = true;
                 if (Cars.Any()) Cars.Clear();
                 var cars = new List<Car>();
-                if (accessType == NetworkAccess.Internet)
+                if (accessType == NetworkAccess.Internet) //si du réseau => API
                 {
                     cars = await carApiService.GetCars();
                 }
-                else
+                else                                       //sinon => DB
                 {
                     cars = App.CarDatabaseService.GetCars();
                 }

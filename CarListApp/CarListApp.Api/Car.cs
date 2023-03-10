@@ -2,19 +2,19 @@
 {
     public class Car
     {
-        public int Id
+        public int? Id
         {
             get; set;
         }
-        public string Make
+        public string? Make
         {
             get; set;
         }
-        public string Model
+        public string? Model
         {
             get; set;
         }
-        public string Vin
+        public string? Vin
         {
             get; set;
         }

@@ -4,7 +4,10 @@ namespace CarListApp.Maui.Models
 {
     public abstract class BaseEntity
     {
-        [PrimaryKey, AutoIncrement]
-        public int Id { get; set; }
+        [PrimaryKey, AutoIncrement] //SQLite
+        public int Id
+        {
+            get; set;
+        }
     }
 }

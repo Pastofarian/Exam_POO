@@ -1,5 +1,6 @@
 ﻿using CarListApp.Maui.Models;
 using SQLite;
+using System.Text;
 
 namespace CarListApp.Maui.Services
 {
@@ -27,27 +28,28 @@ namespace CarListApp.Maui.Services
         {
             try
             {
-                Init();
-                return conn.Table<Car>().ToList();
+                Init(); // Appelle la méthode "Init" pour init. la connexion à la db
+                return conn.Table<Car>().ToList(); // Retourne une liste de toutes les voitures de la table "Car"
             }
             catch (Exception)
             {
-                StatusMessage = "Failed to retrieve data.";
+                StatusMessage = "Echec de la récupérartion des données.";
             }
 
-            return new List<Car>();
+            return new List<Car>(); // Retourne une liste vide si n'a pas marché
         }
+
 
         public Car GetCar(int id)
         {
             try
             {
                 Init();
-                return conn.Table<Car>().FirstOrDefault(q => q.Id == id);
+                return conn.Table<Car>().FirstOrDefault(q => q.Id == id); //Retourne la première voiture avec l'id spécifié
             }
             catch (Exception)
             {
-                StatusMessage = "Failed to retrieve data.";
+                StatusMessage = "Echec de la récupérartion des données.";
             }
 
             return null;
@@ -58,11 +60,11 @@ namespace CarListApp.Maui.Services
             try
             {
                 Init();
-                return conn.Table<Car>().Delete(q => q.Id == id);
+                return conn.Table<Car>().Delete(q => q.Id == id); // Supprime la première voiture avec l'id spécifié
             }
             catch (Exception)
             {
-                StatusMessage = "Failed to delete data.";
+                StatusMessage = "Echec de la suppression des données.";
             }
 
             return 0;
@@ -75,14 +77,14 @@ namespace CarListApp.Maui.Services
                 Init();
 
                 if (car == null)
-                    throw new Exception("Invalid Car Record");
+                    throw new Exception("Cette voiture n'existe pas."); // exception si la voiture est nulle
 
-                result = conn.Insert(car);
-                StatusMessage = result == 0 ? "Insert Failed" : "Insert Successful";
+                result = conn.Insert(car); // Ajoute une nouvelle voiture dans la db
+                StatusMessage = result == 0 ? "Echec de l'insertion" : "Insertion réussie";
             }
             catch (Exception)
             {
-                StatusMessage = "Failed to Insert data.";
+                StatusMessage = "Echec de l'ajout de données.";
             }
         }
 
@@ -93,14 +95,14 @@ namespace CarListApp.Maui.Services
                 Init();
 
                 if (car == null)
-                    throw new Exception("Invalid Car Record");
+                    throw new Exception("Cette voiture n'existe pas.");
 
-                result = conn.Update(car);
-                StatusMessage = result == 0 ? "Update Failed" : "Update Successful";
+                result = conn.Update(car); // Met à jour la voiture dans la db
+                StatusMessage = result == 0 ? "Echec de la mise à jour" : "Mise à jour réussie";
             }
             catch (Exception)
             {
-                StatusMessage = "Failed to Update data.";
+                StatusMessage = "Echec de la mise à jour des données.";
             }
         }
     }

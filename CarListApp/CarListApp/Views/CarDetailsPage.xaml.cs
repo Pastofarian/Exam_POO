@@ -9,14 +9,14 @@ public partial class CarDetailsPage : ContentPage
 
     public CarDetailsPage(CarDetailsViewModel carDetailsViewModel)
     {
-        InitializeComponent();
+        InitializeComponent(); //génér automatiquement (affiche les éléments dans le xaml)
         BindingContext = carDetailsViewModel;
         this.carDetailsViewModel = carDetailsViewModel;
     }
 
-    protected override async void OnAppearing()
+    protected override async void OnAppearing() //est appelé par MAUI à chaque fois qu'on charge une nouvelle page
     {
-        base.OnAppearing();
-        await carDetailsViewModel.GetCarData();
+        base.OnAppearing(); //onAppering sur la classe parent
+        await carDetailsViewModel.GetCarData(); //on récup les données
     }
 }

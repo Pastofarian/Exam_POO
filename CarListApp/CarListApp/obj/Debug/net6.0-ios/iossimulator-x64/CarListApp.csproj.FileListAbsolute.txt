@@ -270,4 +270,3 @@ C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\CarListApp.genruntimeconfig.cache
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\ref\CarListApp.dll
 C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0-ios\iossimulator-x64\Newtonsoft.Json.dll
-C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature

@@ -6,6 +6,7 @@
              xmlns:viewmodel ="clr-namespace:CarListApp.Maui.ViewModels"
              x:DataType ="viewmodel:CarListViewModel"
              Title="{Binding Title}">
+    <!--lier dynamiquement à CarListViewModel-->
     <Grid ColumnSpacing="1" RowSpacing="1" Padding="5">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
