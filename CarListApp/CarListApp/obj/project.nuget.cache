@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EQUhcBQSIjBX2JqNZtNG9S2z5d1bbykgkUwLMhRn9lWpQ9+3jGhpS5CxRjXlOZpkNpA3CXfuKF5XarooOsbpCQ==",
+  "dgSpecHash": "3wZSQylsfutjn6lKMYci5+sOot+FnxehGPWNYQgwODpLcjo9HnAZOxiBunuUvDzcFi8HCPha3X/5WZTkzZN0jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pastofarian\\source\\repos\\Exam_POO\\CarListApp\\CarListApp\\CarListApp.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "C:\\Users\\Pastofarian\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
@@ -144,6 +145,12 @@
     "C:\\Users\\Pastofarian\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.6.20.1\\xamarin.kotlin.stdlib.jdk8.1.6.20.1.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.0.1\\xamarin.kotlinx.coroutines.android.1.6.0.1.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.0.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.0.1.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.controls.runtime.any\\6.0.552\\microsoft.maui.controls.runtime.any.6.0.552.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.essentials.runtime.any\\6.0.552\\microsoft.maui.essentials.runtime.any.6.0.552.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.core.runtime.any\\6.0.552\\microsoft.maui.core.runtime.any.6.0.552.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.essentials.ref.any\\6.0.552\\microsoft.maui.essentials.ref.any.6.0.552.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.core.ref.any\\6.0.552\\microsoft.maui.core.ref.any.6.0.552.nupkg.sha512",
+    "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.controls.ref.any\\6.0.552\\microsoft.maui.controls.ref.any.6.0.552.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.controls.runtime.ios\\6.0.552\\microsoft.maui.controls.runtime.ios.6.0.552.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.essentials.ref.ios\\6.0.552\\microsoft.maui.essentials.ref.ios.6.0.552.nupkg.sha512",
     "C:\\Users\\Pastofarian\\.nuget\\packages\\microsoft.maui.core.ref.ios\\6.0.552\\microsoft.maui.core.ref.ios.6.0.552.nupkg.sha512",

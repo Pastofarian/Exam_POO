@@ -1,4 +1,6 @@
-﻿using Xunit;
+﻿using CarListApp.Maui.ViewModels;
+using Xunit;
+using System.IO;
 
 namespace CarListApp.Tests
 {

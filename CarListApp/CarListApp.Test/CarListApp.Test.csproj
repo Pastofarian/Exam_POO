@@ -24,7 +24,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\CarListApp.Api\CarListApp.Api.csproj" />
 		<ProjectReference Include="..\CarListApp\CarListApp.csproj" />
 	</ItemGroup>
 

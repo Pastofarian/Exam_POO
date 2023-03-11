@@ -45,7 +45,7 @@ namespace CarListApp.Maui.ViewModels
         int carId;
 
         [RelayCommand] //on contrôle sans bloquer le user  !!Avant appelé "[ICommand]"
-        async Task GetCarList() //"Dependency injection"
+        public async Task GetCarList() //"Dependency injection"
         {
             if (IsLoading) return;
             try

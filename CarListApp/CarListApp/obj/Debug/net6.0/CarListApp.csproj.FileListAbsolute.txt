@@ -1,0 +1,13 @@
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0\CarListApp.deps.json
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0\CarListApp.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\bin\Debug\net6.0\CarListApp.pdb
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\CarListApp.csproj.AssemblyReference.cache
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\CarListApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\CarListApp.AssemblyInfoInputs.cache
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\CarListApp.AssemblyInfo.cs
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\CarListApp.csproj.CoreCompileInputs.cache
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\XamlC.stamp
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\CarListApp.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\refint\CarListApp.dll
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\CarListApp.pdb
+C:\Users\Pastofarian\source\repos\Exam_POO\CarListApp\CarListApp\obj\Debug\net6.0\ref\CarListApp.dll
